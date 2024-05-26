@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOAGPL Bot</title>
+    <link rel="icon" type="image/x-icon" href="pngegg.png">
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="bot.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <nav class="navbar">
+            <img src="https://play-lh.googleusercontent.com/XMWHlx11Yfd7q1624ic0BBMgB8cJ-c3usY_p3ZneMGUBJZagK-uoeyfXmXeOeuA0b3c"
+                class="nav-branding">
+            <div class="header-right">
+                <li class="nav-item">
+                    <a class="active" href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </div>
+    <section>
+
+
+        <div class="main">
+            <h1>Voice Integration</h1>
+            <div id="transcriptionResult">
+                <!-- <p>hello </p> -->
+            </div>
+            <div class="mainButton">
+                <button id="startButton" class="button">Start Listening</button>
+                <button id="stopButton" class="button" disabled>Stop Listening</button>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+
+        <script src="index.js"></script>
+
+
+</body>
+
+</html>
